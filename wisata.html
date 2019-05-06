@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html>
+<head>
+	<title>TUGAS PEMOGRAMAN WEB MOBILE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+		<!-- bagian menu		 -->
+		<ul class="topnav">
+		  <li><a href="index.html">Beranda</a></li>
+		  <li><a href="wisata.html">Destinasi Wisata</a></li>
+		  <li><a href="kuliner.html">Kuliner</a></li>
+		  <li><a href="kontak.html">Kontak</a></li>
+		  <li class="icon">
+	 <a href="javascript:void(0);" onclick="myFunction()">☰</a> 
+  </li>
+</ul>
+		<!-- akhir bagian menu -->
+		<!-- untuk bagian blog -->
+			<div class="conteudo">
+				<div class="post-info">
+				<img src="img/parangtritis.jpg">
+				<h2 class="conteudo-lendo"> PANTAI PARANGTRITIS </h2>
+				<p>
+				Berikut ini tarif biaya masuk Pantai Parangtritis selengkapnya:</p>
+
+				<P>harga tiket masuk per orang: 3 k
+				biaya masuk untuk sepeda motor: 1 k per motor.
+				biaya masuk untuk mobil: 5 k per mobil.
+				tarif parkir motor 2 k per motor.
+				tarif parkir mobil 5 k per mobil.</P>
+
+				<p>Adapun biaya sewa wahana kurang lebih: </p>
+				<p>Biaya sewa ATV: 50 - 100 k per setengah jam.
+				Biaya sewa kereta kuda andong: 20 k sekali putaran</p>
+				<h2><a href="detail_sejarah.html"> --> Selengkapnya</a></h2>
+			</div></div>
+			<div class="conteudo">
+				<div class="post-info">
+				<img src="img/hpinus.jpg">
+				<h2 class="conteudo-lendo"> HUTAN PINUS </h2>
+				<p>
+				Jam operasional atau jam buka Hutan Pinus Mangunan dibuka setiap hari dari hari senin s/d minggu mulai pukul 06.00-17.30 WIB.
+				Tidak ada HTM (Harga Tiket Masuk) yang perlu kamu dibayar alias GRATIS karena belum ada loket pembayaran tiket masuk. Pengunjung hanya cukup membayar kendaraan yang dibawa. Untuk sebuah sepeda motor dikenai retribusi sebesar Rp 3.000, untuk mobil Rp 10.000 dan untuk Bus Rp 20.000:</p>
+
+				<h2><a href="detail_sejarah.html"> --> Selengkapnya</a></h2>
+			</div></div>
+			<div id="footer">
+         &copy; Copyright
+    </div>
+			
+		</div>
+		<!-- akhir bagian blog -->
+		<script type="sw-abdul.js"></script>
+		<script> if	(!('serviceWorker'	in	navigator))	{
+					console.log('Service	worker	not	supported');	
+					return; 
+						}
+				 	navigator.serviceWorker.register('sw-abdul.js') 
+					.then(function(){	
+					console.log('Registered');
+					 }) 
+					.catch(function(error)	{		
+					console.log('Registration	failed:',	error);
+					 });
+					</script>
+
+		<script>	if	('serviceWorker'	in	navigator)	{
+					navigator.serviceWorker.register('sw-abdul.js')
+						.then(function(registration)	{	
+							console.log('Registered:',	registration);	
+				   	})		
+				   .catch(function(error)	{	
+				   			console.log('Registration	failed:	',	error);
+				   		});
+				   		} </script>	
+		<script>
+			function myFunction() {
+    		document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+				} </script>
+</body>
+</html>

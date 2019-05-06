@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html>
+<head>
+	<title>TUGAS PEMOGRAMAN WEB MOBILE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+		<!-- bagian menu		 -->
+		<ul class="topnav">
+		  <li><a href="index.html">Beranda</a></li>
+		  <li><a href="wisata.html">Destinasi Wisata</a></li>
+		  <li><a href="kuliner.html">Kuliner</a></li>
+		  <li><a href="kontak.html">Kontak</a></li>
+		  <li class="icon">
+	 <a href="javascript:void(0);" onclick="myFunction()">☰</a> 
+  </li>
+</ul>
+		<!-- akhir bagian menu -->
+		<!-- untuk bagian blog -->
+			<div class="conteudo">
+				<div class="post-info">
+				<img src="img/gudeg.jpg">
+				<h2 class="conteudo-lendo"> GUDEG YU DJUM </h2>
+				<P>Jika berbicara kuliner Jogja, gudeg tentu akan jadi yang pertama disebut. Salah satu yang paling legendaris adalah Gudeg Yu Djum, yang terletak di pusat Gudeg Yogyakarta yakni Wijilan. Saking legendarisnya, Gudeg Yu Djum adalah salah satu kuliner Jogja berupa makanan atau lauk matang yang bisa dibawa untuk oleh-oleh. Bahkan dijual online.</P>
+
+				<p>Gudeg Yu Djum sangat terkenal karena kenikmatannya. Kuliner Jogja ini dimasak dengan menggunakan kayu bakar, dengan menu paling terkenal seperti gudeg kering, yakni gudeg yang disajikan dengan areh kental. Satu porsi Gudeg Yu Djum berisi nasi, gudeg plus areh kental, sambal krecek dan lauk</p>
+				<h2><a href="detail_sejarah.html"> --> Selengkapnya</a></h2>
+			</div></div>
+			<div class="conteudo">
+				<div class="post-info">
+				<img src="img/angkringan.jpg">
+				<h2 class="conteudo-lendo"> ANGKRINGAN LIK MAN </h2>
+				<p>Salah satu tempat nongkrong malam hari yang terkenal di Jogja adalah Angkringan Lik Man. Jika Anda pernah dengar soal Kopi Jos yang merupakan kopi hitam yang ke dalamnya dimasukkan arang panas, tempat ini adalah yang menyediakan menu tersebut. Meski terkenal kopi josnya, Angkringan Lik Man juga menyediakan aneka nasi kucing dengan berbagai topping pilihan khas angkringan.</p>
+				<h2><a href="detail_sejarah.html"> --> Selengkapnya</a></h2>
+			</div></div>
+			<div id="footer">
+         &copy; Copyright
+    </div>
+			
+		</div>
+		<!-- akhir bagian blog -->
+		<script type="sw-abdul.js"></script>
+		<script> if	(!('serviceWorker'	in	navigator))	{
+					console.log('Service	worker	not	supported');	
+					return; 
+						}
+				 	navigator.serviceWorker.register('sw-abdul.js') 
+					.then(function(){	
+					console.log('Registered');
+					 }) 
+					.catch(function(error)	{		
+					console.log('Registration	failed:',	error);
+					 });
+					</script>
+
+		<script>	if	('serviceWorker'	in	navigator)	{
+					navigator.serviceWorker.register('sw-abdul.js')
+						.then(function(registration)	{	
+							console.log('Registered:',	registration);	
+				   	})		
+				   .catch(function(error)	{	
+				   			console.log('Registration	failed:	',	error);
+				   		});
+				   		} </script>	
+		<script>
+			function myFunction() {
+    		document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+				} </script>
+</body>
+</html>

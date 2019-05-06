@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html>
+<head>
+	<title>TUGAS PEMOGRAMAN WEB MOBILE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+		<!-- bagian menu		 -->
+		<ul class="topnav">
+		  <li><a href="index.html">Beranda</a></li>
+		  <li><a href="wisata.html">Destinasi Wisata</a></li>
+		  <li><a href="kuliner.html">Kuliner</a></li>
+		  <li><a href="kontak.html">Kontak</a></li>
+		  <li class="icon">
+	 <a href="javascript:void(0);" onclick="myFunction()">☰</a> 
+  </li>
+</ul>
+		<!-- akhir bagian menu -->
+
+		<header class="head"> <h1> SELAMAT DATANG DIYOGYAKARTA </h1>
+    <img src="img/logo.jpg" alt="">
+    <img src="img/becak.jpg" alt="">
+    <img src="img/andong.jpg" alt="">
+</div></div></header>
+
+		<!-- untuk bagian blog -->
+			<div class="conteudo">
+				<div class="post-info">
+				</div>
+				<img src="img/tugu.jpg">
+				<h2 class="conteudo-lendo"> SEJARAH YOGYAKARTA </h2>
+				<p>Berdirinya Kota Yogyakarta berawal dari adanya Perjanjian Gianti pada Tanggal 13 Februari 1755 yang ditandatangani Kompeni Belanda di bawah tanda tangan Gubernur Nicholas Hartingh atas nama Gubernur Jendral Jacob Mossel. Isi Perjanjian Gianti : Negara Mataram dibagi dua : Setengah masih menjadi Hak......</p>
+				<h2><a href="detail_sejarah.html"> --> Selengkapnya</a></h2>
+			</div>
+			<div id="footer">
+         &copy; Copyright
+    </div>
+			
+		</div>
+		<!-- akhir bagian blog -->
+		<script type="sw-abdul.js"></script>
+		<script> if	(!('serviceWorker'	in	navigator))	{
+					console.log('Service	worker	not	supported');	
+					return; 
+						}
+				 	navigator.serviceWorker.register('sw-abdul.js') 
+					.then(function(){	
+					console.log('Registered');
+					 }) 
+					.catch(function(error)	{		
+					console.log('Registration	failed:',	error);
+					 });
+					</script>
+
+		<script>	if	('serviceWorker'	in	navigator)	{
+					navigator.serviceWorker.register('sw-abdul.js')
+						.then(function(registration)	{	
+							console.log('Registered:',	registration);	
+				   	})		
+				   .catch(function(error)	{	
+				   			console.log('Registration	failed:	',	error);
+				   		});
+				   		} </script>	
+
+		<!-- get toggler function -->
+		<script>
+			function myFunction() {
+    		document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+		} </script>
+</body>
+</html>
